@@ -16,6 +16,7 @@ spec:
       containers:
         - name: router
           image: gcr.io/cloud-494515/router:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
           volumeMounts:

@@ -15,5 +15,6 @@ spec:
       containers:
         - name: api-gw
           image: gcr.io/cloud-494515/api-gw:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
