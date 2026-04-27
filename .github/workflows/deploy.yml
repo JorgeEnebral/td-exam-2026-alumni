@@ -52,5 +52,5 @@ jobs:
 
     - name: Deploy to GKE
       run: |
-        gcloud container clusters get-credentials $GKE_CLUSTER --zone $GKE_ZONE
+        gcloud container clusters get-credentials jorgeenebral-td2026 --zone europe-west4-a --project cloud-494515
         kubectl apply -f k8s/
