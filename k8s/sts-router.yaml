@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: router
-          image: gcr.io/cloud-494515/router
+          image: gcr.io/cloud-494515/router:latest
           ports:
             - containerPort: 3000
           volumeMounts:
