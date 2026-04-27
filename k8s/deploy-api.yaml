@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: <placeholder>
+      app: api-gw
   template:
     metadata:
       labels:
-        app: <placeholder>
+        app: api-gw
     spec:
       containers:
         - name: api-gw
