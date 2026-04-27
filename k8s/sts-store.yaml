@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: storage
-          image: <placeholder>
+          image: gcr.io/cloud-494515/backend-storage
           ports:
             - containerPort: 3000
           volumeMounts:
